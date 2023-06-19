@@ -1,9 +1,10 @@
-import Image from 'next/image'
-
+import Navbar from "./components/Navbar/Navbar"
+import Holder from "./components/Holder/Holder"
 export default function Home() {
   return (
     <main>
-      mezie 
+      <Navbar /> 
+      <Holder />
     </main>
   )
 }

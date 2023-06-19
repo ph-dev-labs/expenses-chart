@@ -1,0 +1,7 @@
+.profile {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    background-color: hsl(28, 10%, 53%);
+    margin-right: 1.5rem;
+}

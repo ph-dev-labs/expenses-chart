@@ -1,0 +1,35 @@
+nav {
+  background-color: hsl(10, 79%, 65%);
+  width: 30em;
+  margin: auto;
+  height: 7rem;
+  border-radius: 1rem;
+}
+
+.detail-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 9rem;
+    align-items: center;
+}
+.bal {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  transform: translateY(1rem);
+}
+
+.amount {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  transform: translateY(-.5rem);
+}
+
+.nav-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

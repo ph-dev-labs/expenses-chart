@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
+import "./Navbar.style.css";
+import Profile from "../Profile/Profile";
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <nav>
+      <div className="nav-cont">
+        <div className="detail-div">
+          <h3 className="bal">My balance</h3>
+          <h2 className="amount">{`$5000`}</h2>
+        </div>
+        <Profile />
+      </div>
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
