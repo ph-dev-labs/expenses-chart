@@ -22,3 +22,10 @@
     width: 100%;
    
 }
+.thin-line {
+    width: 90%;
+    margin: auto;
+    background-color: hsl(25, 47%, 15%);
+    height: .1em;
+    transform: translateY(2rem);
+}

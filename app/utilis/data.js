@@ -1,4 +1,4 @@
-const data = [
+export const Data = [
   {
     day: "mon",
     amount: 17.45,
@@ -28,3 +28,14 @@ const data = [
     amount: 25.48,
   },
 ];
+
+let total = 0;
+let getTotal = () => {
+  for(let i = 0; i < Data.length; i++) {
+    total += Data[i].amount
+  }
+
+}
+getTotal()
+
+export default total
